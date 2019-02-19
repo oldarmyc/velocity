@@ -18,7 +18,7 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'asyncio',
+        'asyncio;python_version<"3.4"',
         'aiohttp',
         'aiofiles',
         'requests'
