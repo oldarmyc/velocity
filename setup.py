@@ -23,6 +23,17 @@ setup(
         'aiofiles',
         'requests'
     ],
+    extras_require={
+        'cli': [
+            'appdirs',
+            'click'
+        ]
+    },
+    entry_points={
+        'console_scripts': [
+            'velocity=cli:main',
+        ]
+    },
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
