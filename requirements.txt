@@ -1,4 +1,4 @@
-asyncio
+asyncio;python_version<"3.4"
 aiohttp
 aiofiles
 requests
